@@ -16,7 +16,7 @@ public class MyPortalApplication {
 	@CrossOrigin(origins = "http://localhost:9090")
 	@GetMapping("/access")
 	public String getName() {
-		return "cherry";
+		return "charan";
 	}
 	
 	/*public WebMvcConfigurer configure() {
